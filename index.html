@@ -18,21 +18,21 @@
                 left: 0;
                 right: 0;
                 bottom: 0;
-                background: url('back.png') center center / cover no-repeat;
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
             }
             img{
                 width: 750px;
             }
             h1, p {
                 color: white;
-                text-shadow:
-                    -2px -2px 0 black,
-                    2px -2px 0 black,
-                    -2px  2px 0 black,
-                    2px  2px 0 black;
+                -webkit-text-stroke: 0.01em black;
+                -webkit-text-fill-color: white;
             }
         </style>
     </head>
+    <script src="background.js"></script>
     <body>
         <img src="header.png" alt="welcome to faggot.xyz">
         <h1>the home of all faggots</h1>
@@ -46,4 +46,3 @@
         </button>
   </body>
 </html>
-
